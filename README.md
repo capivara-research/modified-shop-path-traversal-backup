@@ -5,7 +5,7 @@
 > **Severity:** Medium · **CVSS 3.1:** 4.9 — `AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N`
 > **CWE:** CWE-22 (Path Traversal) · CAPEC-139
 > **Status:** Unpatched
-> **Vendor notified:** 2026-11-19 — [modified-shop/modified-shop#ISSUE](https://github.com/modified-shop/modified-shop/issues/ISSUE)
+> **Vendor notified:** 2026-11-19 — [modified-shop/modified-shop#3783](https://github.com/modified-shop/modified-shop/issues/3783)
 
 ---
 
@@ -87,7 +87,7 @@ Detection: `grep "backup.php.*download" access.log | grep "\.\."`
 
 ## References
 
-- Vendor notification: (issue link added on submission)
+- Vendor notification: https://github.com/modified-shop/modified-shop/issues/3783
 - CWE-22: https://cwe.mitre.org/data/definitions/22.html
 - Vendor repository: https://github.com/modified-shop/modified-shop
 
